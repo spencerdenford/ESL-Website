@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 6rem auto;
+    grid-template-columns: 20% 40% 40%;
+}
+
+header {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+
+    Background: PowderBlue;
+}
+
+header img {
+    position: absolute;
+    
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+
+    max-width: 12rem;
+    height: auto;
+}
+
+#headerInner {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+#title {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-bottom: 0.5rem;
+    margin-right: 3rem;
+
+    font-size: 3rem;
+    text-decoration: none;
+    color: azure;
+}
+
+#imgMargin{
+    margin-left: 20rem;
+}
+
+#topLinks {
+    grid-column: 1 / span 3;
+    margin-right: 1.5rem;
+    
+    text-decoration: none;
+
+    font-size: 1.5rem;
+    
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid IndianRed;
+}
+
+#topLinks:hover{
+    background-color: IndianRed;
+    color: white;
+}
+
+#intro{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+#intro a {
+    color: red;
+}
+
+#feed{
+    margin-left: 4rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    
+    grid-column: 1 / span 3;
+}
+
+#CUfeed{
+    margin-left: 4rem;
+    margin-bottom: 10rem;
+    padding: 0.5rem;
+    
+    grid-column: 1 / span 3;
+    font-size: large;
+}
+
+#chatbox{
+    padding: 1rem;
+    padding-right: 15rem;
+    padding-bottom: 5rem;
+}
+
+.chatbutton{
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    background-color: white; 
+    color: black; 
+    border: 2px solid darkblue;
+}
+
+.chatbutton:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+#CUsubmitButton{
+    padding-top: 1rem;
+    padding-left: 22rem;
+}
+
+#chatAgent{
+    margin-left: 2rem;
+    position: absolute;
+    
+    max-width: 9rem;
+    height: auto;
+}
+
+#emailbox{
+    padding: 1rem;
+    padding-right: 8rem;
+}
+
+#subscribeMessage{
+    padding-top: 2rem;
+}
+
+#CUsubscribeButton{
+    padding-top: 1rem;
+}
+
+.article{
+    border: 2px solid darkgray;
+
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+#articleIntro{
+    padding-left: 5rem;
+    
+    font-size: 2rem;
+    font-weight: bold;
+
+    color: brown;
+}
+
+#articleTitle{
+    padding-left: 7rem;
+    
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#articleAuthors{
+    padding-left: 7rem;
+}
+
+#articleLinks{
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+#articleLinks p a{
+    color: brown;
+}
+
+#articleFeed{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 10rem;
+    padding: 0.5rem;
+    
+    grid-column: 1 / span 3;
+    grid-row: 2;
+}
+
+#articleContent{
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
+}
+
+#next{
+    float: right;
+
+    padding: 0.7rem 1.4rem;
+    margin-top: 2rem;
+    margin-right: 10rem;
+}
+
+#back{
+    float: left;
+
+    padding: 0.7rem 1.4rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+#eventsTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: brown;
+}
+
+#calendarimage{
+    grid-column: 2;
+    margin-top: 1rem;
+    margin-right: 10rem;
+    float: right;
+    
+    max-width: 40rem;
+    height: auto;
+}
+
+#eventsList p{
+    font-size: 1.7rem;
+}
+
+#header{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+table {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 10%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#refrences{
+    grid-column: 1 / span 3;
+    margin-left: 8rem;
+    margin-bottom: 15rem;
+}
+
+#chartTitle{
+    font-weight: bold;
+}
+
+#articleNav{
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+#homeIntro {
+    grid-column: 1 / span 3;
+    padding-left: 5rem;
+}
+
+#homeHeader {
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+    color: Brown;
+}
+
+#homeContent{
+    font-size: 1.3rem;
+}
+
+#resourcesFeed{
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+    padding: 0.5rem;
+    
+    grid-column: 1 / span 3;
+    font-size: large;
+}
+
+#resourcesFeed div{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: brown;
+}
+
+#resourcesFeed a{
+    margin-left: 4rem;
+}
+
+#resourcesFeed p{
+    margin-left: 2rem;
+}
+
+#wholePage{
+    grid-column: 1 / span 3;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
